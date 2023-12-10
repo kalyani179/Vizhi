@@ -4,9 +4,9 @@ import {Navbar,Nav,Container} from 'react-bootstrap';
 import "../index.css";
 import {Route,Routes,Link, BrowserRouter} from "react-router-dom";
 
-import Home from "./Home";
+import Home from "./Home/Home";
 import AboutUs from "./AboutUs";
-import OurKeyFeature from "./OurKeyFeature";
+import OurKeyFeature from "./Home/OurKeyFeature";
 import OurActions from "./OurActions";
 import SocialMedia from "./SocialMedia";
 
