@@ -3,7 +3,7 @@ import SocialMedia from './SocialMedia'
 
 function Footer() {
   return (
-    <div className='bg-navbar py-3 w-full absolute bottom-0 flex flex-column items-center'>
+    <div className='bg-navbar py-3 w-full flex flex-column items-center'>
         <div className='flex flex-row space-x-24 align-items-center'>
             <img src="../../images/navbar.png" alt="" className="h-28"/>
             <div className="h-16 w-0.5 bg-slate-800 bg-opacity-80 rounded-bl-2xl rounded-br-2xl"></div>

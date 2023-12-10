@@ -30,7 +30,7 @@ function CreateFeature(feature){
 
 function OurKeyFeature() {
   return (
-    <div className='flex flex-column justify-center items-center space-y-14'>
+    <div className='flex flex-column justify-center items-center space-y-14 pb-10'>
       <h1 className="text-zinc-800 text-3xl font-normal font-['Oldenburg']">Our Key Features</h1>
       <div className='grid grid-cols-2 grid-rows-2 gap-x-20 gap-y-10'>{OurKeyFeaturesEntries.map(CreateFeature)}</div>
     </div>
