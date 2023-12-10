@@ -3,7 +3,7 @@ import OurKeyFeaturesEntries from './OurKeyFeaturesEntries';
 
 function FeatureEntry(props){
   return(
-    <div className='w-96 h-[320px] p-3 flex bg-white bg-opacity-75 rounded-[10px] shadow-xl flex-column justify-center align-items-center'>
+    <div className='w-[425px] h-[320px] p-3 flex bg-white bg-opacity-75 rounded-[10px] shadow-xl flex-column justify-center align-items-center'>
       <div className='flex flex-row justify-items-center align-items-center'>
         <h1 className="text-xl font-bold font-['Oldenburg'] tracking-tight">{props.heading}</h1>
         <img src={props.logo} alt="" />
