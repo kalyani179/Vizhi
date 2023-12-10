@@ -3,10 +3,10 @@ import OurKeyFeaturesEntries from './OurKeyFeaturesEntries';
 
 function FeatureEntry(props){
   return(
-    <div className='w-[425px] h-[320px] p-3 flex bg-white bg-opacity-75 rounded-[10px] shadow-xl flex-column justify-center align-items-center'>
-      <div className='flex flex-row justify-items-center align-items-center'>
-        <h1 className="text-xl font-bold font-['Oldenburg'] tracking-tight">{props.heading}</h1>
+    <div className='w-[425px] h-[450px] pt-1 p-3 flex bg-white bg-opacity-75 rounded-[10px] shadow-xl flex-column justify-center align-items-center'>
+      <div className='flex flex-column justify-items-center align-items-center'>
         <img src={props.logo} alt="" />
+        <h1 className="text-xl font-bold font-['Oldenburg'] tracking-tight">{props.heading}</h1>
       </div>
       <p className="m-3 text-xl font-normal font-['Oldenburg']">{props.text}</p>
       <button className='px-3 mt-2 bg-white bg-opacity-80 rounded shadow-xl border !border-zinc-400'>{props.button}</button>
