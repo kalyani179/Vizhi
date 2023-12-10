@@ -3,13 +3,13 @@ import OurKeyFeaturesEntries from './OurKeyFeaturesEntries';
 
 function FeatureEntry(props){
   return(
-    <div className='w-96 h-[303px] p-3 flex bg-white bg-opacity-75 rounded-[10px] shadow-xl flex-column justify-center align-items-center'>
+    <div className='w-96 h-[320px] p-3 flex bg-white bg-opacity-75 rounded-[10px] shadow-xl flex-column justify-center align-items-center'>
       <div className='flex flex-row justify-items-center align-items-center'>
         <h1 className="text-xl font-bold font-['Oldenburg'] tracking-tight">{props.heading}</h1>
         <img src={props.logo} alt="" />
       </div>
-      <p className='mb-3'>{props.text}</p>
-      <button className='px-3 bg-white bg-opacity-80 rounded shadow-xl border border-zinc-800'>{props.button}</button>
+      <p className="m-3 text-xl font-normal font-['Oldenburg']">{props.text}</p>
+      <button className='px-3 mt-2 bg-white bg-opacity-80 rounded shadow-xl border !border-zinc-400'>{props.button}</button>
     </div>
   )
 }
